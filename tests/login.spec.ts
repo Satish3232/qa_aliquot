@@ -2,7 +2,7 @@ import { test, expect } from '../setup';
 import { LoginPage } from '../pages/loginPage';
 
 
-test.describe('Aliquot Login Tests', () => {
+test.describe('Aliquot Login Testcase for Login', () => {
   test('should login successfully with valid credentials', async ({ page }) => {
     const loginPage = new LoginPage(page);
 

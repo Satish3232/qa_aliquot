@@ -1,0 +1,75 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - button "Dashboard" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16] [cursor=pointer]: Dashboard
+        - button "Reports" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18] [cursor=pointer]: Reports
+        - button "Inventory" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20] [cursor=pointer]: Inventory
+        - button "Customers" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22] [cursor=pointer]: Customers
+        - button "SiteManagement" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24] [cursor=pointer]:
+            - generic [ref=e25] [cursor=pointer]: Site
+            - text: Management
+        - button "Utilities" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27] [cursor=pointer]: Utilities
+      - generic [ref=e29]:
+        - img [ref=e33] [cursor=pointer]
+        - img [ref=e37] [cursor=pointer]
+        - img [ref=e41] [cursor=pointer]
+        - img [ref=e45] [cursor=pointer]
+        - button "New Report" [ref=e48] [cursor=pointer]
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - heading "Customers" [level=1] [ref=e55]
+        - generic [ref=e57]: Create, Update and Edit all your customers in one location or multiple.
+        - generic [ref=e59] [cursor=pointer]:
+          - generic [ref=e60] [cursor=pointer]: How it works
+          - img [ref=e62] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e69] [cursor=pointer]:
+            - img [ref=e72] [cursor=pointer]
+            - generic [ref=e74] [cursor=pointer]:
+              - generic [ref=e75] [cursor=pointer]: Customer List
+              - generic [ref=e76] [cursor=pointer]: List customers by client.
+          - generic [ref=e79] [cursor=pointer]:
+            - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84] [cursor=pointer]:
+              - generic [ref=e85] [cursor=pointer]: Customer Controllers
+              - generic [ref=e86] [cursor=pointer]: Manage and view controller data.
+          - generic [ref=e89] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - generic [ref=e94] [cursor=pointer]:
+              - generic [ref=e95] [cursor=pointer]: Business Review
+              - generic [ref=e96] [cursor=pointer]: Create business reviews for customers.
+        - generic [ref=e97]:
+          - generic [ref=e100] [cursor=pointer]:
+            - img [ref=e103] [cursor=pointer]
+            - generic [ref=e105] [cursor=pointer]:
+              - generic [ref=e106] [cursor=pointer]: Customer Contacts
+              - generic [ref=e107] [cursor=pointer]: Manage a list of customer contacts.
+          - generic [ref=e110] [cursor=pointer]:
+            - img [ref=e113] [cursor=pointer]
+            - generic [ref=e115] [cursor=pointer]:
+              - generic [ref=e116] [cursor=pointer]: Customer Schedules
+              - generic [ref=e117] [cursor=pointer]: View Customer Schedules.
+  - generic [ref=e120]:
+    - generic [ref=e124]:
+      - generic [ref=e125]: Monday, October 6th 2025
+      - generic [ref=e126]: Welcome back Demo, below is a quick snapshot of your day.
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - img [ref=e138] [cursor=pointer]
+        - img [ref=e143] [cursor=pointer]
+        - generic [ref=e148]:
+          - generic [ref=e150]: Past Due Reports
+          - generic [ref=e154]: No data available
+      - img [ref=e160]
+```

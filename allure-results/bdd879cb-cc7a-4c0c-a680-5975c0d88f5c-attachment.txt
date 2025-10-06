@@ -1,0 +1,6 @@
+✅ Logged in successfully
+🔍 Trying to click search icon...
+Found 3 search icon(s)
+✅ Search icon clicked
+✅ Entered system ID: 74052
+✅ Clicked result for system ID: 74052

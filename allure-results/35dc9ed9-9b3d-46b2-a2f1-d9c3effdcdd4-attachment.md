@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - generic [ref=e10]:
+    - generic [ref=e14]:
+      - button "Dashboard" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16] [cursor=pointer]: Dashboard
+      - button "Reports" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18] [cursor=pointer]: Reports
+      - button "Inventory" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20] [cursor=pointer]: Inventory
+      - button "Customers" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22] [cursor=pointer]: Customers
+      - button "SiteManagement" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25] [cursor=pointer]: Site
+          - text: Management
+      - button "Utilities" [ref=e26] [cursor=pointer]:
+        - generic [ref=e27] [cursor=pointer]: Utilities
+    - generic [ref=e29]:
+      - img [ref=e33] [cursor=pointer]
+      - img [ref=e37] [cursor=pointer]
+      - img [ref=e41] [cursor=pointer]
+      - img [ref=e45] [cursor=pointer]
+      - button "New Report" [ref=e48] [cursor=pointer]
+  - generic [ref=e51]:
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: Customer List
+        - generic [ref=e57]: Manage your customers from one location.
+      - generic [ref=e59]:
+        - button "Clone Customer" [ref=e60] [cursor=pointer]
+        - button "Create Customer" [ref=e61] [cursor=pointer]
+    - generic [ref=e62]:
+      - generic [ref=e68]:
+        - generic [ref=e70]: Filter Customers
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e75]: Filter by Location
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e78] [cursor=pointer]: Aquaphoenix_Automation
+              - img [ref=e81] [cursor=pointer]
+          - generic [ref=e83]:
+            - generic [ref=e85]: Filter by Status
+            - generic [ref=e86] [cursor=pointer]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic:
+                  - radio [checked]
+                  - generic:
+                    - generic:
+                      - img
+                  - generic: Show All
+              - generic [ref=e90] [cursor=pointer]:
+                - generic:
+                  - radio
+                  - generic: Active
+              - generic [ref=e92] [cursor=pointer]:
+                - generic:
+                  - radio
+                  - generic: In-Active
+        - button "Clear Filters" [ref=e94] [cursor=pointer]
+      - generic [ref=e98]:
+        - generic [ref=e101]:
+          - img [ref=e104] [cursor=pointer]
+          - searchbox "Search for customers in aquaphoenix_automation ..." [ref=e106]
+        - table [ref=e108]:
+          - rowgroup [ref=e109]:
+            - row "ID Name Account Address" [ref=e110]:
+              - cell "ID" [ref=e111] [cursor=pointer]
+              - cell "Name" [ref=e112] [cursor=pointer]
+              - cell "Account" [ref=e113] [cursor=pointer]
+              - cell "Address" [ref=e114] [cursor=pointer]
+              - cell [ref=e115] [cursor=pointer]:
+                - img [ref=e118] [cursor=pointer]
+              - cell [ref=e120] [cursor=pointer]:
+                - img [ref=e123] [cursor=pointer]
+              - cell [ref=e125] [cursor=pointer]:
+                - img [ref=e128] [cursor=pointer]
+              - cell [ref=e130] [cursor=pointer]:
+                - img [ref=e133] [cursor=pointer]
+          - rowgroup [ref=e135]:
+            - row [ref=e136]:
+              - cell [ref=e137]:
+                - img [ref=e141]
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - generic [ref=e147]: Page
+            - generic [ref=e149]: "1"
+            - generic [ref=e151]: of
+            - generic [ref=e153]: "1"
+            - generic [ref=e154]:
+              - generic [ref=e155]: Total
+              - generic [ref=e156]: "1"
+          - generic [ref=e158]:
+            - generic [ref=e162] [cursor=pointer]:
+              - generic [ref=e163] [cursor=pointer]: "25"
+              - img [ref=e166] [cursor=pointer]
+            - generic [ref=e168]:
+              - button "Previous" [disabled]
+            - generic [ref=e169]:
+              - button "Next" [disabled]
+```
