@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - generic [ref=e10]:
+    - generic [ref=e14]:
+      - button "Dashboard" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Dashboard
+      - button "Reports" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Reports
+      - button "Inventory" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]: Inventory
+      - button "Customers" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: Customers
+      - button "SiteManagement" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: SiteManagement
+      - button "Utilities" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: Utilities
+    - generic [ref=e28]:
+      - img [ref=e32] [cursor=pointer]
+      - img [ref=e36] [cursor=pointer]
+      - img [ref=e40] [cursor=pointer]
+      - img [ref=e44] [cursor=pointer]
+      - button "New Report" [ref=e47] [cursor=pointer]
+  - generic [ref=e50]:
+    - generic [ref=e54]:
+      - generic [ref=e55]: Tuesday, October 7th 2025
+      - generic [ref=e56]: Welcome back Demo, below is a quick snapshot of your day.
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Final Reports
+            - generic [ref=e71]: 100% -
+          - generic [ref=e73]: "0"
+          - generic [ref=e74]:
+            - generic [ref=e76]: vs last month
+            - generic [ref=e78]: "1"
+        - generic [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: Draft Reports
+            - generic [ref=e85]: 100% -
+          - generic [ref=e87]: "0"
+          - generic [ref=e88]:
+            - generic [ref=e90]: vs last month
+            - generic [ref=e92]: "4"
+        - generic [ref=e96]:
+          - generic [ref=e98]: Past Due Reports
+          - generic [ref=e100]: "0"
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e110]:
+            - text: Report Breakdown
+            - generic [ref=e111]: for the past 6 months.
+          - generic [ref=e114]:
+            - generic [ref=e117]: Drafts
+            - generic [ref=e120]: Final
+        - img [ref=e124]:
+          - generic [ref=e129]:
+            - generic [ref=e131]: May
+            - generic [ref=e133]: June
+            - generic [ref=e135]: July
+            - generic [ref=e137]: August
+            - generic [ref=e139]: September
+            - generic [ref=e141]: October
+          - generic [ref=e143]:
+            - generic [ref=e145]: "0"
+            - generic [ref=e147]: "1"
+            - generic [ref=e149]: "2"
+            - generic [ref=e151]: "3"
+            - generic [ref=e153]: "4"
+          - generic [ref=e159]:
+            - generic [ref=e160]: "0"
+            - generic [ref=e161]: "0"
+            - generic [ref=e162]: "0"
+            - generic [ref=e163]: "0"
+            - generic [ref=e164]: "4"
+            - generic [ref=e165] [cursor=pointer]: "0"
+          - generic [ref=e171]:
+            - generic [ref=e172]: "0"
+            - generic [ref=e173]: "0"
+            - generic [ref=e174]: "0"
+            - generic [ref=e175]: "0"
+            - generic [ref=e176]: "1"
+            - generic [ref=e177] [cursor=pointer]: "0"
+```

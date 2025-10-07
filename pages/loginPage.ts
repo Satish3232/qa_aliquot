@@ -1,6 +1,9 @@
 import { Page, expect } from '@playwright/test';
 
 export class LoginPage {
+  assertOnDashboard() {
+    throw new Error('Method not implemented.');
+  }
   private readonly page: Page;
 
   constructor(page: Page) {
