@@ -14,6 +14,12 @@ export default defineConfig({
     headless: false,
     screenshot: 'off',     // disable auto screenshots
     video: 'on',           // record all runs (we’ll keep only on pass)
-    trace: 'on',           // collect trace, attach only on pass
+    trace: 'on',
+    launchOptions: {
+      args: ['--start-maximized'],
+    },
+    viewport: null,           // collect trace, attach only on pass
   },
+
+
 });

@@ -14,6 +14,8 @@ export class LoginPage {
     await this.page.goto('/');
   }
 
+  
+
   async login(username: string, password: string) {
     await this.page.fill('input[name="email"]', username);
     await this.page.fill('input[name="password"]', password);

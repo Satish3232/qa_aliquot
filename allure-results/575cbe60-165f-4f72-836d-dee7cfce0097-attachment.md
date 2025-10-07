@@ -1,0 +1,269 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - button "Dashboard" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Dashboard
+        - button "Reports" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Reports
+        - button "Inventory" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Inventory
+        - button "Customers" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: Customers
+        - button "SiteManagement" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: SiteManagement
+        - button "Utilities" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: Utilities
+      - generic [ref=e28]:
+        - img [ref=e32] [cursor=pointer]
+        - img [ref=e36] [cursor=pointer]
+        - img [ref=e40] [cursor=pointer]
+        - img [ref=e44] [cursor=pointer]
+        - button "New Report" [ref=e47] [cursor=pointer]
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: Customer List
+          - generic [ref=e56]: Manage your customers from one location.
+        - generic [ref=e58]:
+          - button "Clone Customer" [ref=e59] [cursor=pointer]
+          - button "Create Customer" [ref=e60] [cursor=pointer]
+      - generic [ref=e61]:
+        - generic [ref=e67]:
+          - generic [ref=e69]: Filter Customers
+          - generic [ref=e70]:
+            - generic [ref=e72]:
+              - generic [ref=e74]: Filter by Location
+              - generic [ref=e75] [cursor=pointer]:
+                - generic [ref=e77]: Aquaphoenix_Automation
+                - img [ref=e80]
+            - generic [ref=e82]:
+              - generic [ref=e84]: Filter by Status
+              - generic [ref=e85] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - generic:
+                    - radio [checked]
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: Show All
+                - generic [ref=e89]:
+                  - generic:
+                    - radio
+                    - generic: Active
+                - generic [ref=e91]:
+                  - generic:
+                    - radio
+                    - generic: In-Active
+          - button "Clear Filters" [ref=e93] [cursor=pointer]
+        - generic [ref=e97]:
+          - generic [ref=e100]:
+            - img [ref=e103] [cursor=pointer]
+            - searchbox "Search for customers in aquaphoenix_automation ..." [ref=e105]
+          - table [ref=e107]:
+            - rowgroup [ref=e108]:
+              - row "ID Name Account Address" [ref=e109]:
+                - cell "ID" [ref=e110] [cursor=pointer]
+                - cell "Name" [ref=e111] [cursor=pointer]
+                - cell "Account" [ref=e112] [cursor=pointer]
+                - cell "Address" [ref=e113] [cursor=pointer]
+                - cell [ref=e114] [cursor=pointer]:
+                  - img [ref=e117]
+                - cell [ref=e119] [cursor=pointer]:
+                  - img [ref=e122]
+                - cell [ref=e124] [cursor=pointer]:
+                  - img [ref=e127]
+                - cell [ref=e129] [cursor=pointer]:
+                  - img [ref=e132]
+            - rowgroup [ref=e134]:
+              - row "18367 Aqua_auto_client_1 None Surat, Gujarat" [ref=e135] [cursor=pointer]:
+                - cell "18367" [ref=e136]
+                - cell "Aqua_auto_client_1" [ref=e137]
+                - cell "None" [ref=e138]
+                - cell "Surat, Gujarat" [ref=e139]
+                - cell [ref=e140]:
+                  - img [ref=e142]
+                - cell [ref=e144]:
+                  - img [ref=e146]
+                - cell [ref=e148]:
+                  - img [ref=e150]
+                - cell [ref=e152]:
+                  - img [ref=e154]
+              - row "26824 John Doe 123456 Los Angeles, New York" [ref=e156] [cursor=pointer]:
+                - cell "26824" [ref=e157]
+                - cell "John Doe" [ref=e158]
+                - cell "123456" [ref=e159]
+                - cell "Los Angeles, New York" [ref=e160]
+                - cell [ref=e161]:
+                  - img [ref=e163]
+                - cell [ref=e165]:
+                  - img [ref=e167]
+                - cell [ref=e169]:
+                  - img [ref=e171]
+                - cell [ref=e173]:
+                  - img [ref=e175]
+              - row "22467 Test None Surat, Gujarat" [ref=e177] [cursor=pointer]:
+                - cell "22467" [ref=e178]
+                - cell "Test" [ref=e179]
+                - cell "None" [ref=e180]
+                - cell "Surat, Gujarat" [ref=e181]
+                - cell [ref=e182]:
+                  - img [ref=e184]
+                - cell [ref=e186]:
+                  - img [ref=e188]
+                - cell [ref=e190]:
+                  - img [ref=e192]
+                - cell [ref=e194]:
+                  - img [ref=e196]
+              - row "22468 Test Customer 1758547234402 None Surat, Gujarat" [ref=e198] [cursor=pointer]:
+                - cell "22468" [ref=e199]
+                - cell "Test Customer 1758547234402" [ref=e200]
+                - cell "None" [ref=e201]
+                - cell "Surat, Gujarat" [ref=e202]
+                - cell [ref=e203]:
+                  - img [ref=e205]
+                - cell [ref=e207]:
+                  - img [ref=e209]
+                - cell [ref=e211]:
+                  - img [ref=e213]
+                - cell [ref=e215]:
+                  - img [ref=e217]
+          - generic [ref=e219]:
+            - generic [ref=e221]:
+              - generic [ref=e223]: Page
+              - generic [ref=e225]: "1"
+              - generic [ref=e227]: of
+              - generic [ref=e229]: "1"
+              - generic [ref=e230]:
+                - generic [ref=e231]: Total
+                - generic [ref=e232]: "4"
+            - generic [ref=e234]:
+              - generic [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: "25"
+                - img [ref=e242]
+              - generic [ref=e244]:
+                - button "Previous" [disabled]
+              - generic [ref=e245]:
+                - button "Next" [disabled]
+  - generic [ref=e250]:
+    - generic [ref=e253]:
+      - generic [ref=e254]:
+        - heading "Create Customer" [level=2] [ref=e256]
+        - generic [ref=e257]:
+          - button "Show On Map" [disabled]
+      - generic [ref=e259]:
+        - generic [ref=e261]:
+          - generic [ref=e263]:
+            - generic [ref=e270]: Customer Details
+            - generic [ref=e271]:
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - text: Name
+                  - img [ref=e277]
+                - textbox "Enter the customer's name" [ref=e280]: John Doe
+              - generic [ref=e282]:
+                - generic [ref=e283]: Account Number
+                - textbox "Account Number" [ref=e285]: "123456"
+          - generic [ref=e287]:
+            - generic [ref=e294]: Phone Numbers
+            - generic [ref=e295]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: Phone Format
+                - generic [ref=e301] [cursor=pointer]:
+                  - generic [ref=e302]: US
+                  - img [ref=e305]
+              - generic [ref=e307]:
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Primary
+                  - textbox "Enter the customer's primary phone number" [ref=e313]: "1234567890"
+                - generic [ref=e316]:
+                  - generic [ref=e317]: Ext
+                  - textbox [ref=e319]
+              - generic [ref=e320]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Fax
+                  - textbox "Optional fax number" [ref=e326]
+                - generic [ref=e329]:
+                  - generic [ref=e330]: Ext
+                  - textbox [ref=e332]
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - text: Timezone
+                  - img [ref=e340]
+                - generic [ref=e344] [cursor=pointer]:
+                  - generic [ref=e345]: Africa/Abidjan
+                  - img [ref=e348]
+              - generic [ref=e350]:
+                - generic [ref=e353]:
+                  - generic [ref=e354]: Prospect
+                  - generic [ref=e357] [cursor=pointer]:
+                    - generic [ref=e358]: "False"
+                    - img [ref=e361]
+                - generic [ref=e365]:
+                  - generic [ref=e366]: Status
+                  - generic [ref=e369] [cursor=pointer]:
+                    - generic [ref=e370]: Active Customer
+                    - img [ref=e373]
+        - generic [ref=e376]:
+          - generic [ref=e383]: Address & Contact Details
+          - generic [ref=e384]:
+            - generic [ref=e386]:
+              - generic [ref=e387]: Address Format
+              - generic [ref=e390] [cursor=pointer]:
+                - generic [ref=e391]: City, State, Zip
+                - img [ref=e394]
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - text: Street
+                    - img [ref=e403]
+                  - textbox "Primary street address" [ref=e406]: 123 Main St
+                - textbox "Secondary address line (e.g., apartment, suite, unit)" [ref=e410]
+                - generic [ref=e411]:
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: Extra Info
+                    - textbox "Extra street information" [ref=e416]
+                  - generic [ref=e418]:
+                    - generic [ref=e419]: Extra Info
+                    - textbox "Extra street information" [ref=e421]
+              - generic [ref=e422]:
+                - generic [ref=e425]:
+                  - generic [ref=e426]:
+                    - text: City
+                    - img [ref=e429]
+                  - textbox [ref=e432]: Los Angeles
+                - generic [ref=e435]:
+                  - generic [ref=e436]:
+                    - text: State
+                    - img [ref=e439]
+                  - textbox [ref=e442]: New York
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - text: Postal Code
+                    - img [ref=e449]
+                  - textbox [ref=e452]: "10038"
+              - generic [ref=e455]:
+                - generic [ref=e456]: Country
+                - generic [ref=e459] [cursor=pointer]:
+                  - generic [ref=e460]: United States
+                  - img [ref=e463]
+            - generic [ref=e465]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: Latitude
+                - textbox [ref=e470]
+              - generic [ref=e472]:
+                - generic [ref=e473]: Longitude
+                - textbox [ref=e475]
+            - generic [ref=e477]:
+              - generic [ref=e478]: Language
+              - generic [ref=e481] [cursor=pointer]:
+                - generic [ref=e482]: English
+                - img [ref=e485]
+    - generic [ref=e488]:
+      - button "Cancel" [ref=e490] [cursor=pointer]
+      - button "Save Customer" [ref=e492] [cursor=pointer]
+```

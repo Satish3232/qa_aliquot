@@ -1,0 +1,8 @@
+✅ Logged in successfully
+🔍 Trying to click search icon...
+Found 3 search icon(s)
+✅ Search icon clicked
+✅ Entered system ID: 74052
+✅ Clicked result for system ID: 74052
+✅ Customer created with random data
+Trace file not found: D:Aliquot	est-resultscustomerCreate-Aliquot-Log-2c2c5-tem-and-open-system-details
