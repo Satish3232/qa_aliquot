@@ -1,0 +1,3 @@
+✅ Logged in successfully
+✅ Clicked on Customer List
+✅ Clone Customer button clicked

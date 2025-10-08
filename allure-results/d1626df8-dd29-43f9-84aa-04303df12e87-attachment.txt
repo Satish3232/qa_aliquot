@@ -1,0 +1,2 @@
+✅ Logged in successfully
+✅ Clone Customer button clicked

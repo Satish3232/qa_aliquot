@@ -84,5 +84,13 @@ test.describe('Aliquot Login and Search Flow', () => {
     await page.waitForTimeout(1000);
 
     console.log('✅ Customer created with random data');
+
+    
+
+
+
+
+
+
   });
 });

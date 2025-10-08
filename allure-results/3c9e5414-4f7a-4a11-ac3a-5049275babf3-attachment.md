@@ -1,0 +1,296 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - button "Dashboard" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Dashboard
+        - button "Reports" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Reports
+        - button "Inventory" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Inventory
+        - button "Customers" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: Customers
+        - button "SiteManagement" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: SiteManagement
+        - button "Utilities" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: Utilities
+      - generic [ref=e28]:
+        - img [ref=e32] [cursor=pointer]
+        - img [ref=e36] [cursor=pointer]
+        - img [ref=e40] [cursor=pointer]
+        - img [ref=e44] [cursor=pointer]
+        - button "New Report" [ref=e47] [cursor=pointer]
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: Customer List
+          - generic [ref=e56]: Manage your customers from one location.
+        - generic [ref=e58]:
+          - button "Clone Customer" [ref=e59] [cursor=pointer]
+          - button "Create Customer" [disabled]
+      - generic [ref=e60]:
+        - generic [ref=e66]:
+          - generic [ref=e68]: Filter Customers
+          - generic [ref=e69]:
+            - generic [ref=e71]:
+              - generic [ref=e73]: Filter by Location
+              - generic [ref=e74] [cursor=pointer]:
+                - generic [ref=e76]: Select Client
+                - img [ref=e79]
+            - generic [ref=e81]:
+              - generic [ref=e83]: Filter by Status
+              - generic [ref=e84] [cursor=pointer]:
+                - generic [ref=e86]:
+                  - generic:
+                    - radio [checked]
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: Show All
+                - generic [ref=e88]:
+                  - generic:
+                    - radio
+                    - generic: Active
+                - generic [ref=e90]:
+                  - generic:
+                    - radio
+                    - generic: In-Active
+          - button "Clear Filters" [ref=e92] [cursor=pointer]
+        - generic [ref=e96]:
+          - generic [ref=e99]:
+            - img [ref=e102] [cursor=pointer]
+            - searchbox "Search for customers..." [ref=e104]
+          - table [ref=e106]:
+            - rowgroup [ref=e107]:
+              - row "ID Name Account Address" [ref=e108]:
+                - cell "ID" [ref=e109] [cursor=pointer]
+                - cell "Name" [ref=e110] [cursor=pointer]
+                - cell "Account" [ref=e111] [cursor=pointer]
+                - cell "Address" [ref=e112] [cursor=pointer]
+                - cell [ref=e113] [cursor=pointer]:
+                  - img [ref=e116]
+                - cell [ref=e118] [cursor=pointer]:
+                  - img [ref=e121]
+                - cell [ref=e123] [cursor=pointer]:
+                  - img [ref=e126]
+                - cell [ref=e128] [cursor=pointer]:
+                  - img [ref=e131]
+            - rowgroup [ref=e133]:
+              - row "18367 Aqua_auto_client_1 None Surat, Gujarat" [ref=e134] [cursor=pointer]:
+                - cell "18367" [ref=e135]
+                - cell "Aqua_auto_client_1" [ref=e136]
+                - cell "None" [ref=e137]
+                - cell "Surat, Gujarat" [ref=e138]
+                - cell [ref=e139]:
+                  - img [ref=e141]
+                - cell [ref=e143]:
+                  - img [ref=e145]
+                - cell [ref=e147]:
+                  - img [ref=e149]
+                - cell [ref=e151]:
+                  - img [ref=e153]
+              - row "26824 John Doe 123456 Los Angeles, New York" [ref=e155] [cursor=pointer]:
+                - cell "26824" [ref=e156]
+                - cell "John Doe" [ref=e157]
+                - cell "123456" [ref=e158]
+                - cell "Los Angeles, New York" [ref=e159]
+                - cell [ref=e160]:
+                  - img [ref=e162]
+                - cell [ref=e164]:
+                  - img [ref=e166]
+                - cell [ref=e168]:
+                  - img [ref=e170]
+                - cell [ref=e172]:
+                  - img [ref=e174]
+              - row "26825 John Doe1 123456 Los Angeles, New York" [ref=e176] [cursor=pointer]:
+                - cell "26825" [ref=e177]
+                - cell "John Doe1" [ref=e178]
+                - cell "123456" [ref=e179]
+                - cell "Los Angeles, New York" [ref=e180]
+                - cell [ref=e181]:
+                  - img [ref=e183]
+                - cell [ref=e185]:
+                  - img [ref=e187]
+                - cell [ref=e189]:
+                  - img [ref=e191]
+                - cell [ref=e193]:
+                  - img [ref=e195]
+              - row "26826 John Doe 43u Acc-768331 Los Angeles, New York" [ref=e197] [cursor=pointer]:
+                - cell "26826" [ref=e198]
+                - cell "John Doe 43u" [ref=e199]
+                - cell "Acc-768331" [ref=e200]
+                - cell "Los Angeles, New York" [ref=e201]
+                - cell [ref=e202]:
+                  - img [ref=e204]
+                - cell [ref=e206]:
+                  - img [ref=e208]
+                - cell [ref=e210]:
+                  - img [ref=e212]
+                - cell [ref=e214]:
+                  - img [ref=e216]
+              - row "26827 John Doe Ab8 Acc-324279 Los Angeles, New York" [ref=e218] [cursor=pointer]:
+                - cell "26827" [ref=e219]
+                - cell "John Doe Ab8" [ref=e220]
+                - cell "Acc-324279" [ref=e221]
+                - cell "Los Angeles, New York" [ref=e222]
+                - cell [ref=e223]:
+                  - img [ref=e225]
+                - cell [ref=e227]:
+                  - img [ref=e229]
+                - cell [ref=e231]:
+                  - img [ref=e233]
+                - cell [ref=e235]:
+                  - img [ref=e237]
+              - row "26828 John Doe Omr Acc-521780 Los Angeles, New York" [ref=e239] [cursor=pointer]:
+                - cell "26828" [ref=e240]
+                - cell "John Doe Omr" [ref=e241]
+                - cell "Acc-521780" [ref=e242]
+                - cell "Los Angeles, New York" [ref=e243]
+                - cell [ref=e244]:
+                  - img [ref=e246]
+                - cell [ref=e248]:
+                  - img [ref=e250]
+                - cell [ref=e252]:
+                  - img [ref=e254]
+                - cell [ref=e256]:
+                  - img [ref=e258]
+              - row "22467 Test None Surat, Gujarat" [ref=e260] [cursor=pointer]:
+                - cell "22467" [ref=e261]
+                - cell "Test" [ref=e262]
+                - cell "None" [ref=e263]
+                - cell "Surat, Gujarat" [ref=e264]
+                - cell [ref=e265]:
+                  - img [ref=e267]
+                - cell [ref=e269]:
+                  - img [ref=e271]
+                - cell [ref=e273]:
+                  - img [ref=e275]
+                - cell [ref=e277]:
+                  - img [ref=e279]
+              - row "22468 Test Customer 1758547234402 None Surat, Gujarat" [ref=e281] [cursor=pointer]:
+                - cell "22468" [ref=e282]
+                - cell "Test Customer 1758547234402" [ref=e283]
+                - cell "None" [ref=e284]
+                - cell "Surat, Gujarat" [ref=e285]
+                - cell [ref=e286]:
+                  - img [ref=e288]
+                - cell [ref=e290]:
+                  - img [ref=e292]
+                - cell [ref=e294]:
+                  - img [ref=e296]
+                - cell [ref=e298]:
+                  - img [ref=e300]
+          - generic [ref=e302]:
+            - generic [ref=e304]:
+              - generic [ref=e306]: Page
+              - generic [ref=e308]: "1"
+              - generic [ref=e310]: of
+              - generic [ref=e312]: "1"
+              - generic [ref=e313]:
+                - generic [ref=e314]: Total
+                - generic [ref=e315]: "1"
+            - generic [ref=e317]:
+              - generic [ref=e321] [cursor=pointer]:
+                - generic [ref=e322]: "25"
+                - img [ref=e325]
+              - generic [ref=e327]:
+                - button "Previous" [disabled]
+              - generic [ref=e328]:
+                - button "Next" [disabled]
+  - generic [ref=e333]:
+    - generic [ref=e336]:
+      - heading "Clone Customer" [level=2] [ref=e339]
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - generic [ref=e343]:
+            - generic [ref=e350]: Source
+            - generic [ref=e351]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - text: Client
+                  - img [ref=e357]
+                - generic [ref=e359]:
+                  - generic [ref=e361]: Aquaphoenix_Automation
+                  - img [ref=e364]
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - text: Customer
+                  - img [ref=e371]
+                - generic [ref=e373] [cursor=pointer]:
+                  - generic [ref=e375]: Select Customer
+                  - img [ref=e378]
+          - generic [ref=e381]:
+            - generic [ref=e388]: Destination
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - text: Client
+                - img [ref=e395]
+              - generic [ref=e397] [cursor=pointer]:
+                - generic [ref=e399]: Select Client
+                - img [ref=e402]
+        - generic [ref=e405]:
+          - generic [ref=e408]: Copy Calculated Test Input Assignments
+          - generic [ref=e413]: Copy Existing User Groups
+    - generic [ref=e417]:
+      - button "Cancel" [ref=e419] [cursor=pointer]
+      - button "Clone" [ref=e421] [cursor=pointer]
+  - generic [ref=e424]:
+    - generic [ref=e425]: Customer Lookup
+    - generic [ref=e428]:
+      - generic [ref=e431]:
+        - img [ref=e434] [cursor=pointer]
+        - searchbox "Search for customers..." [ref=e436]
+      - table [ref=e438]:
+        - rowgroup [ref=e439]:
+          - row "Name Account" [ref=e440]:
+            - cell "Name" [ref=e441] [cursor=pointer]
+            - cell "Account" [ref=e442] [cursor=pointer]
+        - rowgroup [ref=e443]:
+          - row "Aqua_auto_client_1 None" [ref=e444] [cursor=pointer]:
+            - cell "Aqua_auto_client_1" [ref=e445]
+            - cell "None" [ref=e446]
+          - row "John Doe 123456" [ref=e447] [cursor=pointer]:
+            - cell "John Doe" [ref=e448]
+            - cell "123456" [ref=e449]
+          - row "John Doe1 123456" [ref=e450] [cursor=pointer]:
+            - cell "John Doe1" [ref=e451]
+            - cell "123456" [ref=e452]
+          - row "John Doe 43u Acc-768331" [ref=e453] [cursor=pointer]:
+            - cell "John Doe 43u" [ref=e454]
+            - cell "Acc-768331" [ref=e455]
+          - row "John Doe Ab8 Acc-324279" [ref=e456] [cursor=pointer]:
+            - cell "John Doe Ab8" [ref=e457]
+            - cell "Acc-324279" [ref=e458]
+          - row "John Doe Omr Acc-521780" [ref=e459] [cursor=pointer]:
+            - cell "John Doe Omr" [ref=e460]
+            - cell "Acc-521780" [ref=e461]
+          - row "Test None" [ref=e462] [cursor=pointer]:
+            - cell "Test" [ref=e463]
+            - cell "None" [ref=e464]
+          - row "Test Customer 1758547234402 None" [ref=e465] [cursor=pointer]:
+            - cell "Test Customer 1758547234402" [ref=e466]
+            - cell "None" [ref=e467]
+      - generic [ref=e468]:
+        - generic [ref=e470]:
+          - generic [ref=e472]: Page
+          - generic [ref=e474]: "1"
+          - generic [ref=e476]: of
+          - generic [ref=e478]: "1"
+          - generic [ref=e479]:
+            - generic [ref=e480]: Total
+            - generic [ref=e481]: "8"
+        - generic [ref=e483]:
+          - generic [ref=e487] [cursor=pointer]:
+            - generic [ref=e488]: "25"
+            - img [ref=e491]
+          - generic [ref=e493]:
+            - button "Previous" [disabled]
+          - generic [ref=e494]:
+            - button "Next" [disabled]
+    - generic [ref=e496]:
+      - button "Clear" [ref=e498] [cursor=pointer]
+      - button "Cancel" [ref=e500] [cursor=pointer]
+```
