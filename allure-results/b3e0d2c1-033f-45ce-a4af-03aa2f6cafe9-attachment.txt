@@ -1,0 +1,5 @@
+✅ Navigated to Aliquot QA URL
+✅ Entered username
+✅ Entered password
+✅ Clicked on Login button
+✅ Opened Customers section

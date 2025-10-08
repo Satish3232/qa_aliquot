@@ -207,34 +207,26 @@
         - generic [ref=e341]:
           - generic [ref=e343]:
             - generic [ref=e350]: Source
-            - generic [ref=e351]:
-              - generic [ref=e353]:
-                - generic [ref=e354]:
-                  - text: Client
-                  - img [ref=e357]
-                - generic [ref=e359]:
-                  - generic [ref=e361]: Aquaphoenix_Automation
-                  - img [ref=e364]
-              - generic [ref=e367]:
-                - generic [ref=e368]:
-                  - text: Customer
-                  - img [ref=e371]
-                - generic [ref=e373] [cursor=pointer]:
-                  - generic [ref=e375]: Select Customer
-                  - img [ref=e378]
-          - generic [ref=e381]:
-            - generic [ref=e388]: Destination
-            - generic [ref=e391]:
-              - generic [ref=e392]:
+            - generic [ref=e353]:
+              - generic [ref=e354]:
                 - text: Client
-                - img [ref=e395]
-              - generic [ref=e397] [cursor=pointer]:
-                - generic [ref=e399]: Select Client
-                - img [ref=e402]
-        - generic [ref=e405]:
-          - generic [ref=e408]: Copy Calculated Test Input Assignments
-          - generic [ref=e413]: Copy Existing User Groups
-    - generic [ref=e417]:
-      - button "Cancel" [ref=e419] [cursor=pointer]
-      - button "Clone" [ref=e421] [cursor=pointer]
+                - img [ref=e357]
+              - generic [ref=e359]:
+                - generic [ref=e361]: Select Client
+                - img [ref=e364]
+          - generic [ref=e367]:
+            - generic [ref=e374]: Destination
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - text: Client
+                - img [ref=e381]
+              - generic [ref=e383] [cursor=pointer]:
+                - generic [ref=e385]: Select Client
+                - img [ref=e388]
+        - generic [ref=e391]:
+          - generic [ref=e394]: Copy Calculated Test Input Assignments
+          - generic [ref=e399]: Copy Existing User Groups
+    - generic [ref=e403]:
+      - button "Cancel" [ref=e405] [cursor=pointer]
+      - button "Clone" [ref=e407] [cursor=pointer]
 ```

@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - button "Dashboard" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Dashboard
+        - button "Reports" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Reports
+        - button "Inventory" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Inventory
+        - button "Customers" [active] [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: Customers
+        - button "SiteManagement" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: SiteManagement
+        - button "Utilities" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: Utilities
+      - generic [ref=e28]:
+        - img [ref=e32] [cursor=pointer]
+        - img [ref=e36] [cursor=pointer]
+        - img [ref=e40] [cursor=pointer]
+        - img [ref=e44] [cursor=pointer]
+        - button "New Report" [ref=e47] [cursor=pointer]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - heading "Customers" [level=1] [ref=e54]
+        - generic [ref=e56]: Create, Update and Edit all your customers in one location or multiple.
+        - generic [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: How it works
+          - img [ref=e61]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e68] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e73]:
+              - generic [ref=e74]: Customer List
+              - generic [ref=e75]: List customers by client.
+          - generic [ref=e78] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]:
+              - generic [ref=e84]: Customer Schedules
+              - generic [ref=e85]: View Customer Schedules.
+        - generic [ref=e86]:
+          - generic [ref=e89] [cursor=pointer]:
+            - img [ref=e92]
+            - generic [ref=e94]:
+              - generic [ref=e95]: Customer Contacts
+              - generic [ref=e96]: Manage a list of customer contacts.
+          - generic [ref=e99] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]:
+              - generic [ref=e105]: Business Review
+              - generic [ref=e106]: Create business reviews for customers.
+        - generic [ref=e110] [cursor=pointer]:
+          - img [ref=e113]
+          - generic [ref=e115]:
+            - generic [ref=e116]: Customer Controllers
+            - generic [ref=e117]: Manage and view controller data.
+  - generic [ref=e120]:
+    - generic [ref=e124]:
+      - generic [ref=e125]: Wednesday, October 8th 2025
+      - generic [ref=e126]: Welcome back Demo, below is a quick snapshot of your day.
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e138] [cursor=pointer]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: Final Reports
+            - generic [ref=e141]: 100% -
+          - generic [ref=e143]: "0"
+          - generic [ref=e144]:
+            - generic [ref=e146]: vs last month
+            - generic [ref=e148]: "1"
+        - generic [ref=e152] [cursor=pointer]:
+          - generic [ref=e153]:
+            - generic [ref=e154]: Draft Reports
+            - generic [ref=e155]: 100% -
+          - generic [ref=e157]: "0"
+          - generic [ref=e158]:
+            - generic [ref=e160]: vs last month
+            - generic [ref=e162]: "4"
+        - generic [ref=e166]:
+          - generic [ref=e168]: Past Due Reports
+          - generic [ref=e170]: "0"
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e180]:
+            - text: Report Breakdown
+            - generic [ref=e181]: for the past 6 months.
+          - generic [ref=e184]:
+            - generic [ref=e187]: Drafts
+            - generic [ref=e190]: Final
+        - img [ref=e194]:
+          - generic [ref=e199]:
+            - generic [ref=e201]: May
+            - generic [ref=e203]: June
+            - generic [ref=e205]: July
+            - generic [ref=e207]: August
+            - generic [ref=e209]: September
+            - generic [ref=e211]: October
+          - generic [ref=e213]:
+            - generic [ref=e215]: "0"
+            - generic [ref=e217]: "1"
+            - generic [ref=e219]: "2"
+            - generic [ref=e221]: "3"
+            - generic [ref=e223]: "4"
+          - generic [ref=e229]:
+            - generic [ref=e230]: "0"
+            - generic [ref=e231]: "0"
+            - generic [ref=e232]: "0"
+            - generic [ref=e233]: "0"
+            - generic [ref=e234]: "4"
+            - generic [ref=e235] [cursor=pointer]: "0"
+          - generic [ref=e241]:
+            - generic [ref=e242]: "0"
+            - generic [ref=e243]: "0"
+            - generic [ref=e244]: "0"
+            - generic [ref=e245]: "0"
+            - generic [ref=e246]: "1"
+            - generic [ref=e247] [cursor=pointer]: "0"
+```

@@ -237,4 +237,51 @@
     - generic [ref=e417]:
       - button "Cancel" [ref=e419] [cursor=pointer]
       - button "Clone" [ref=e421] [cursor=pointer]
+  - generic [ref=e424]:
+    - generic [ref=e425]: Client Lookup
+    - generic [ref=e428]:
+      - generic [ref=e431]:
+        - img [ref=e434] [cursor=pointer]
+        - searchbox "Search for clients..." [ref=e436]
+      - table [ref=e438]:
+        - rowgroup [ref=e439]:
+          - row "Name Address" [ref=e440]:
+            - cell "Name" [ref=e441] [cursor=pointer]
+            - cell "Address" [ref=e442] [cursor=pointer]
+        - rowgroup [ref=e443]:
+          - row "Aquaphoenix_automation Abc Street, Surat" [ref=e444] [cursor=pointer]:
+            - cell "Aquaphoenix_automation" [ref=e445]
+            - cell "Abc Street, Surat" [ref=e446]
+          - row "Test Client 1758541846804 123 Test Street 1758541846804, Test City 1758541846804" [ref=e447] [cursor=pointer]:
+            - cell "Test Client 1758541846804" [ref=e448]
+            - cell "123 Test Street 1758541846804, Test City 1758541846804" [ref=e449]
+          - row "Test Client 1758541949195 123 Test Street 1758541949195, Test City 1758541949195" [ref=e450] [cursor=pointer]:
+            - cell "Test Client 1758541949195" [ref=e451]
+            - cell "123 Test Street 1758541949195, Test City 1758541949195" [ref=e452]
+          - row "Test Client 1758543908884 123 Test Street 1758543908884, Test City 1758543908884" [ref=e453] [cursor=pointer]:
+            - cell "Test Client 1758543908884" [ref=e454]
+            - cell "123 Test Street 1758543908884, Test City 1758543908884" [ref=e455]
+          - row "Test Client 1758544124165 123 Test Street 1758544124165, Test City 1758544124165" [ref=e456] [cursor=pointer]:
+            - cell "Test Client 1758544124165" [ref=e457]
+            - cell "123 Test Street 1758544124165, Test City 1758544124165" [ref=e458]
+      - generic [ref=e459]:
+        - generic [ref=e461]:
+          - generic [ref=e463]: Page
+          - generic [ref=e465]: "1"
+          - generic [ref=e467]: of
+          - generic [ref=e469]: "1"
+          - generic [ref=e470]:
+            - generic [ref=e471]: Total
+            - generic [ref=e472]: "5"
+        - generic [ref=e474]:
+          - generic [ref=e478] [cursor=pointer]:
+            - generic [ref=e479]: "25"
+            - img [ref=e482]
+          - generic [ref=e484]:
+            - button "Previous" [disabled]
+          - generic [ref=e485]:
+            - button "Next" [disabled]
+    - generic [ref=e487]:
+      - button "Clear" [ref=e489] [cursor=pointer]
+      - button "Cancel" [ref=e491] [cursor=pointer]
 ```
