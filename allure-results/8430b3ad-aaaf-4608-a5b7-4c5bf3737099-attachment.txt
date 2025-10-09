@@ -1,0 +1,3 @@
+✅ Logged in successfully
+✅ Clone Customer button clicked
+✅ Select Client button clicked

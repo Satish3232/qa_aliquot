@@ -219,22 +219,33 @@
                 - generic [ref=e368]:
                   - text: Customer
                   - img [ref=e371]
-                - generic [ref=e373] [cursor=pointer]:
-                  - generic [ref=e375]: Select Customer
+                - generic [ref=e373]:
+                  - generic [ref=e375]: Aqua_auto_client_1
                   - img [ref=e378]
-          - generic [ref=e381]:
-            - generic [ref=e388]: Destination
-            - generic [ref=e391]:
-              - generic [ref=e392]:
-                - text: Client
-                - img [ref=e395]
-              - generic [ref=e397] [cursor=pointer]:
-                - generic [ref=e399]: Select Client
-                - img [ref=e402]
-        - generic [ref=e405]:
-          - generic [ref=e408]: Copy Calculated Test Input Assignments
-          - generic [ref=e413]: Copy Existing User Groups
-    - generic [ref=e417]:
-      - button "Cancel" [ref=e419] [cursor=pointer]
-      - button "Clone" [ref=e421] [cursor=pointer]
+              - generic [ref=e381]:
+                - generic [ref=e382]: Facility
+                - generic [ref=e383] [cursor=pointer]:
+                  - generic [ref=e385]: Select Facility
+                  - img [ref=e388]
+          - generic [ref=e391]:
+            - generic [ref=e398]: Destination
+            - generic [ref=e399]:
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - text: Client
+                  - img [ref=e405]
+                - generic [ref=e407] [cursor=pointer]:
+                  - generic [ref=e409]: Select Client
+                  - img [ref=e412]
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - text: New Customer Name
+                  - img [ref=e419]
+                - textbox [ref=e422]
+        - generic [ref=e424]:
+          - generic [ref=e427]: Copy Calculated Test Input Assignments
+          - generic [ref=e432]: Copy Existing User Groups
+    - generic [ref=e436]:
+      - button "Cancel" [ref=e438] [cursor=pointer]
+      - button "Clone" [ref=e440] [cursor=pointer]
 ```
